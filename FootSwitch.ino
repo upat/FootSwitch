@@ -124,7 +124,8 @@ SwSampling sw0 = SwSampling( 0, INPUT_PULLUP, LOW );
 
 void setup()
 {
-  /* 処理なし */
+  /* 動作安定待ち */
+  DigiKeyboard.delay( 500 );
 }
 
 void loop()
