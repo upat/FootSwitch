@@ -151,6 +151,6 @@ void loop()
     sw0.oneshot_flag = true;
   }
 
-  /* 4ms待ち */
-  DigiKeyboard.delay( 4 );
+  /* 1ms待ち */
+  DigiKeyboard.delay( 1 );
 }
